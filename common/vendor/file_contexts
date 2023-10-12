@@ -38,9 +38,6 @@
 /dev/batch_io                                u:object_r:io_device:s0
 /dev/ssp_sensorhub                           u:object_r:ssp_device:s0
 
-# bluetooth
-/dev/ttySAC[0-9]                             u:object_r:bt_device:s0
-
 # cpu
 /dev/cpu_dma_latency                         u:object_r:cpu_dma_device:s0
 
